@@ -1,0 +1,32 @@
+{
+  "name": "cloudformation-deploy-script-for-vms-on-ec2",
+  "version": "1.0.0",
+  "description": "cloudformation-deploy-script-for-vms-on-ec2 は、cloudformation によってAWS上にEC2インスタンスを自動立ち上げするための、cli commands を成形するツールです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/latonaio/cloudformation-deploy-script-for-vms-on-ec2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudformation-deploy-script-for-vms-on-ec2/issues"
+  },
+  "homepage": "https://github.com/cloudformation-deploy-script-for-vms-on-ec2#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.1047.0",
+    "prettier": "^2.5.1",
+    "yargs": "^17.3.0"
+  },
+  "dependencies": {
+    "@types/json5": "^2.2.0",
+    "@types/node": "^17.0.2",
+    "@types/yargs": "^17.0.7",
+    "json5": "^2.2.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
